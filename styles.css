@@ -1,0 +1,61 @@
+* { 
+    margin: auto;
+    width: 100%;
+    padding:0px;
+    
+}
+h1{
+font-size: 80px;
+align-content:stretch;
+color:greenyellow; 
+padding:10px;
+}
+
+body {
+  background-image: url(lightning2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:20px;
+  color:red
+}
+
+
+span {
+    color: red;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    box-shadow: 10px 10px 30px greenyellow;
+}
+
+div {
+    display: inline-block;
+   font-size: 25px;
+   padding: 10px;
+}
+div {
+    margin: auto;
+    width: 80%;
+    padding: 10px
+}
+
+.column {
+    float: left;
+    width: 30%;
+    
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+audio {
+    width: 25%;   
+}
+
